@@ -20,6 +20,12 @@ function Home() {
       <button onClick={handleClick}>
         Place Order
       </button>
+
+      <Link href="/staticgeneration">
+        <a>All users</a>
+      </Link>
+
+
     </div>
 
 
