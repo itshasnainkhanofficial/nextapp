@@ -11,7 +11,8 @@
       { "id": 9, "title": "p9", "price": 55000 , "description" : "p9 description" },
       { "id": 10, "title": "p10", "price": 55000 , "description" : "p10 description" },
       { "id": 100, "title": "p100", "price": 55000 , "description" : "p1000 updated description" }
-    ], 
+    ],
+
     "news" : [
       { "id": 1, "title": "n1", "content": "n1 content updated" , "category" : "sports" },
       { "id": 2, "title": "n2", "content": "n2 content" , "category" : "science" },
@@ -23,6 +24,89 @@
       { "id": 8, "title": "n8", "content": "n8 content" , "category" : "entertainment" },
       { "id": 9, "title": "n9", "content": "n9 content" , "category" : "sports" },
       { "id": 10, "title": "n10", "content": "n10 content" , "category" : "science" }
+    ],
+
+    "deshboard" : {
+      "posts" : 15,
+      "comments" : 10,
+      "likes" : 15,
+      "shares" : 200,
+      "followers" : 25,
+      "following" : 30
+    },
+
+    "events" : [
+      {
+        "id": 1,
+        "title": "event1",
+        "description": "event1 description",
+        "category" : "sports"
+      },
+      {
+        "id": 2,
+        "title": "event2",
+        "description": "event2 description",
+        "category" : "sports"
+      },
+      {
+        "id": 3,
+        "title": "event3",
+        "description": "event3 description",
+        "category" : "science"
+      },
+      {
+        "id": 4,
+        "title": "event4",
+        "description": "event4 description",
+        "category" : "science"
+      },
+      {
+        "id": 5,
+        "title": "event5",
+        "description": "event5 description",
+        "category" : "entertainment"
+      },
+      {
+        "id": 6,
+        "title": "event6",
+        "description": "event6 description",
+        "category" : "sports"
+      },
+      {
+        "id": 7,
+        "title": "event7",
+        "description": "event7 description",
+        "category" : "entertainment"
+      },
+      {
+        "id": 8,
+        "title": "event8",
+        "description": "event8 description",
+        "category" : "sports"
+      },
+      {
+        "id": 9,
+        "title": "event9",
+        "description": "event9 description",
+        "category" : "science"
+      },
+      {
+        "id": 10,
+        "title": "event10",
+        "description": "event10 description",
+        "category" : "entertainment"
+      }
+
+
+
+
+
+
+
+
+
+
     ]
+    
     
 }
