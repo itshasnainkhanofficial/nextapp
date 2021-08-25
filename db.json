@@ -11,6 +11,18 @@
       { "id": 9, "title": "p9", "price": 55000 , "description" : "p9 description" },
       { "id": 10, "title": "p10", "price": 55000 , "description" : "p10 description" },
       { "id": 100, "title": "p100", "price": 55000 , "description" : "p1000 updated description" }
+    ], 
+    "news" : [
+      { "id": 1, "title": "n1", "content": "n1 content updated" , "category" : "sports" },
+      { "id": 2, "title": "n2", "content": "n2 content" , "category" : "science" },
+      { "id": 3, "title": "n3", "content": "n3 content" , "category" : "entertainment" },
+      { "id": 4, "title": "n4", "content": "n4 content" , "category" : "entertainment" },
+      { "id": 5, "title": "n5", "content": "n5 content" ,  "category" : "sports" },
+      { "id": 6, "title": "n6", "content": "n6 content" , "category" : "science" },
+      { "id": 7, "title": "n7", "content": "n7 content" , "category" : "science" },
+      { "id": 8, "title": "n8", "content": "n8 content" , "category" : "entertainment" },
+      { "id": 9, "title": "n9", "content": "n9 content" , "category" : "sports" },
+      { "id": 10, "title": "n10", "content": "n10 content" , "category" : "science" }
     ]
     
 }
