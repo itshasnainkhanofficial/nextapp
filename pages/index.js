@@ -1,6 +1,12 @@
 import Link from 'next/link'
 import {useRouter} from 'next/router'
+import { useSession } from 'next-auth/client'
+
 function Home() {
+  const [session, loading] = useSession()
+  console.log({ session, loading })
+
+
   const router = useRouter();
   const handleClick = () => {
     router.push('/product')
@@ -25,7 +31,7 @@ function Home() {
         <a>All users</a>
       </Link>
 
-
+    {session ? `${session.user.name}, ` : ''}Welcome to Next.js!
     </div>
 
 

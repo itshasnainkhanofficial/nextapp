@@ -25,20 +25,46 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../styles/layout.css'
 import Head from 'next/head'
+import Navbar from '../components/authworking/Navbar'
+import "../styles/authworking/navbar.css"
+import { Provider } from 'next-auth/client'
+
 function MyApp({ Component, pageProps }) {
 
   if(Component.getLayout){
     return Component.getLayout(<Component {...pageProps} />)
   }
   return (
-    <>
+    // <>
+    //   <Head>
+    //     <title>Learning app</title>
+    //   </Head>
+    //   <Header />
+
+    //   <Component {...pageProps} />
+
+    //   <Footer />
+     
+
+    // </>
+    <Provider session={pageProps.session}>
+
       <Head>
         <title>Learning app</title>
       </Head>
-      <Header />
+      {/* <Header />
+
       <Component {...pageProps} />
-      <Footer />
-    </>
+
+      <Footer /> */}
+      
+
+
+      {/* working with auth */}
+      <Navbar/>
+      <Component {...pageProps} />
+
+      </Provider>
   )
 }
 
